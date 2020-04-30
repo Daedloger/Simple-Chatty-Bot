@@ -1,24 +1,23 @@
-def greet(bot_name, birth_year):
-    print('Hello! My name is ' + bot_name + '.')
-    print('I was created in ' + birth_year + '.')
+def introduction():
+    print("Hello, human, my name is BB8")
+    print("I was created in 2020!")
 
 
-def remind_name():
-    print('Please, remind me your name.')
+def your_name():
+    print("What's your name?")
     name = input()
-    print('What a great name you have, ' + name + '!')
+    print("Welcome on board, " + name + ".")
 
 
-def guess_age():
-    print('Let me guess your age.')
+def your_age():
+    print('Let me show of guessing your age.')
     print('Enter remainders of dividing your age by 3, 5 and 7.')
 
     rem3 = int(input())
     rem5 = int(input())
     rem7 = int(input())
     age = (rem3 * 70 + rem5 * 21 + rem7 * 15) % 105
-
-    print("Your age is " + str(age) + "; that's a good time to start programming!")
+    print("Your age is " + str(age) + ", you're getting old...")
 
 
 def count():
@@ -33,7 +32,6 @@ def count():
 
 def test():
     print("Let's test your programming knowledge.")
-    # write your code here
     print("Why do we use methods?")
     print("1. To repeat a statement multiple times.")
     print("2. To decompose a program into several small subroutines.")
@@ -41,18 +39,18 @@ def test():
     print("4. To interrupt the execution of a program.")
     anwser = int(input())
     while anwser != 2:
-        print("Please, try again.")
+        print("Wrong! Looser but go again.")
         anwser = int(input())
-    print('Completed, have a nice day!')
+    print("You're damn right!")
 
 
 def end():
-    print('Congratulations, have a nice day!')
+    print('Hasta la vista, baby!')
 
 
-greet('Aid', '2020')  # change it as you need
-remind_name()
-guess_age()
+introduction()
+your_name()
+your_age()
 count()
 test()
 end()
