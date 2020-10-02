@@ -1,4 +1,4 @@
-## <b> Summary: </b><br>
+## <b> Summary: You learn basic java from this Project </b><br>
 The first project I choose to start on the JetBrains Academy/Python Developer. 
 
 ## <b>About</b><br>
